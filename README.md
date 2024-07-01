@@ -6,8 +6,6 @@ For this project it was decided to use an in-memory database to avoid setbacks i
 
 Note: In this case I'm trying to show the solution we brought for this particular feature. Code might not be the best in this case but because the short time I had most of the code was adapted to present just a portion of the solution.
 
-Node version: ``v20.10.0``
-
 Here is a diagram of the case we will be analyzing.
 
 ![Blank diagram (1)](https://github.com/Moises311/workflows/assets/174307557/bcd5d6a3-9db6-4241-b2b9-403328f03cd9)
@@ -27,6 +25,7 @@ Run the following commands
 2. ``npm run test``
 
 ## Technical details
+Node version: ``v20.10.0``
 
 ### Condition groups
 These are like switch statements that can be used as ``if else`` or as a switch statement where we can execute more than one criteria if we decide to.
